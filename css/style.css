@@ -1,0 +1,43 @@
+body {
+    background-color: purple;
+}
+
+.box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.box2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.center-title {
+    text-align: center;
+}
+
+.btn-continer {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: auto;
+    padding: 5px;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 4px;
+}

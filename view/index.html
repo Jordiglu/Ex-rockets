@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cohets</title>
+    <link rel="stylesheet" href="../css/style.css  ">
+</head>
+
+<body>
+    <h1 class="center-title">Rockets!!</h1>
+    <div class="box">
+        <button onclick="createRocket1()"> Create Rocket 1</button>
+        <button onclick="createRocket2()">Create Rocket 2</button>
+    </div>
+    <div class=" box1">
+        <button onclick="acelerar(rocket1)">Accelerate Rocket 1</button>
+        <button onclick="acelerar(rocket2)">Accelerate Rocket 2</button>
+        <button onclick="frenar(rocket1)">Break Rocket 1</button>
+        <button onclick="frenar(rocket2)">Break Rocket 2</button>
+    </div>
+    <div class=" box2">
+        <button onclick="printRocket(rocket1)">Print Rocket 1</button>
+        <button onclick="printRocket(rocket2)">Print Rocket 2</button>
+        <button onclick="printAllRocket()">Print All Rockets</button>
+    </div>
+    <div id="outputRockets">
+        <div id="rocket"></div>
+    </div>
+
+
+
+
+    <script src="controller.js"></script>
+    <script src="models.js"></script>
+</body>
+
+</html>
