@@ -39,14 +39,14 @@ class Rocket {
 
 
     }
-    sumarPotencias() {
-        let propulsors: number = 0;
-        for (let i = 0; i < this.propulsor.length; i++) {
-            propulsors += this.propulsor[i];
+    // sumarPotencias() {
+    //     let propulsors: number = 0;
+    //     for (let i = 0; i < this.propulsor.length; i++) {
+    //         propulsors += this.propulsor[i];
 
-        }
-        return propulsors;
-    }
+    //     }
+    //     return propulsors;
+    // }
 
 
 }
